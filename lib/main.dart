@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Animation',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme:
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 24, 185, 110)),
         useMaterial3: true,
       ),
       home: homepage(),
